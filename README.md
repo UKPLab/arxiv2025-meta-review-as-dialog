@@ -40,10 +40,10 @@ $ pip install -r requirements.txt
 ReMuSE has three phases and we provide the steps to run each of them below:
 
 ### Initial Dialogue Generation
+
 >
-export out_path = 'output_llama_7B'
->
->
+    export out_path = 'output_llama_7B'
+    
     python ReMuSE/init_dialogue/open_source_llms.py \
     --out_path $out_path \
     --model_path 'meta-llama/Llama-2-13b-chat-hf' \
