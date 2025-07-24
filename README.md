@@ -2,7 +2,7 @@
 
 [![Arxiv](https://img.shields.io/badge/Arxiv-2409.19505-red?style=flat&logo=arxiv&logoColor=white)]()
 [![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
-[![Python Versions](https://img.shields.io/badge/Python-3.9-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Python Versions](https://img.shields.io/badge/Python-3.10-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 >  **Abstract**
 >
 > Meta-reviewing is a pivotal stage in the peer-review process, serving as the final step in determining whether a paper is recommended for acceptance. Prior research on meta-reviewing has treated this as a summarization problem over review reports. However, complementary to this perspective, meta-reviewing is a decision-making process that requires weighing reviewer arguments and placing them within a broader context. Prior research has demonstrated that decision-makers can be effectively assisted in such scenarios via dialogue agents. In line with this framing,
@@ -43,7 +43,7 @@ ReMuSE has three phases and we provide the steps to run each of them below:
 
 >
     export out_path = 'output_llama_7B'
-    
+
     python ReMuSE/init_dialogue/open_source_llms.py \
     --out_path $out_path \
     --model_path 'meta-llama/Llama-2-13b-chat-hf' \
