@@ -6,7 +6,6 @@ import math
 
 def get_responses(lines):
     lines = [x for x in lines if x!='\n']
-    #lines = [line for line in lines if not 'Decision Maker' in line]
     responses = [x.split(":")[-1].strip() for x in lines]
     agents = [x.split(":")[0].strip() for x in lines]
     return responses, agents
@@ -34,11 +33,8 @@ def main(args):
                 dialogues = dialogue_file.readlines()
 
                 responses, agents = get_responses(dialogues)
-                #print(responses)
 
                 for resp, agent in zip(responses, agents):
-                    #print(resp)
-                    #print(agent)
                     output_string=f"{domain}\t{file.strip('.txt')}\t{agent}\t{knowledge}\t{resp}\n"
                     f.write(output_string)
     
