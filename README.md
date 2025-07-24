@@ -66,7 +66,7 @@ export out_path = 'output_chatgpt'
     --model_path 'gpt-3.5-turbo-0125'
 >
 
-## Evaluation
+### Evaluation
 The dialogues generated in the previous step, need to be evaluated with different factuality and specificity metrics. We need to first create the dialogue in the format for the evaluation metrics:
 >
 >
@@ -102,7 +102,7 @@ For ``Specificity``, we adapt the code for [Speciteller](https://github.com/jjes
 The ``path`` argument should be the ``$out`` in the previous code. The      ``filename`` is the output filename. The  ``model`` argument is the shortened model name that is used throughout.  
 
 
-## Feedback Generation and Refinement
+### Feedback Generation and Refinement
 To generate the feedback and refinement, we use the following code:
 
 >
@@ -113,6 +113,7 @@ To generate the feedback and refinement, we use the following code:
 >
 The ``model`` argument is the shortened name for the model taht we have used throughout. The ``metrics`` can be any combination of `k-prec, q2 and specificity'. The ``epochs`` argument can be any number.
 
+One can iteratively run the codes within the ``Evaluation`` section again to get the scores for the refined dialogues.
 ## Citation
 
 ```bib
