@@ -117,5 +117,13 @@ One can iteratively run the codes within the ``Evaluation`` section again to get
 ## Citation
 
 ```bib
-@misc{}
+@misc{purkayastha2025decisionmakingdeliberationmetareviewingdocumentgrounded,
+      title={Decision-Making with Deliberation: Meta-reviewing as a Document-grounded Dialogue}, 
+      author={Sukannya Purkayastha and Nils Dycke and Anne Lauscher and Iryna Gurevych},
+      year={2025},
+      eprint={2508.05283},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.05283}, 
+}
 ```
