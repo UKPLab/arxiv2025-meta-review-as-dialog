@@ -1,6 +1,6 @@
 # Decision-Making with Deliberation: Meta-reviewing as a Document-grounded Dialogue
 
-[![Arxiv](https://img.shields.io/badge/Arxiv-2409.19505-red?style=flat&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2508.05283)
+[![Arxiv](https://img.shields.io/badge/Arxiv-2508.05283-red?style=flat&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2508.05283)
 [![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.10-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 >  **Abstract**
